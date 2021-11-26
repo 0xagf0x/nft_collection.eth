@@ -55,3 +55,8 @@ data:application/json;base64,eyJuYW1lIjoiQWxpY2UgaW4gTWV0YWxhbmQiLCJkZXNjcmlwdGl
 - deploy it again. (npx hardhat run scripts/deploy.js --network rinkeby)
 - update the contract address on our frontend. (app.jsx)
 - update the abi file on our frontend.  (contracts/MyNFT.sol/MyNFT.json)
+
+
+## To verify on Etherscan
+- npx hardhat verify --network rinkeby [CONTRACT_ADDRESS]
+- (Current Instance) https://rinkeby.etherscan.io/address/0xa1C998612097cDF543967A31AdF1CE2176f54679#code
